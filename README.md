@@ -25,7 +25,7 @@ const product = {
 const schema = Joi.object().keys({
     id: Joi.string().noChange(origObj).required().label('id'),
     name: Joi.string().required().label('name'),
-    price: Joi.number().positive().integer().label('price),
+    price: Joi.number().positive().integer().label('price'),
     currency: Joi.string().currency().required().label('currency)
     }
 });
