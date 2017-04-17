@@ -6,15 +6,13 @@
 
 ## Installing
 ```shell
-npm install joi-nochange --save
+npm install joi-currency --save
 ```
 
 ## Usage
 
 ```js
-const BaseJoi = require('joi');
-const currency = require('../joi-currency');
-const Joi = BaseJoi.extend(currency); // indicate this plugin extends Joi
+const Joi = require('joi-currency'); // require this plugin as Joi
 
 const product = {
     id: 'k1773y',

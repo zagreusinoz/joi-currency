@@ -2,7 +2,7 @@
 
 const Joi = require('joi');
 
-module.exports = {
+module.exports = Joi.extend({
     base: Joi.string(),
     name: 'string',
     language: {
@@ -50,4 +50,4 @@ module.exports = {
             }
         }
     ]
-};
+});
