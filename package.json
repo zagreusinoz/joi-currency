@@ -1,6 +1,6 @@
 {
   "name": "joi-currency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a currency validator to Joi",
   "main": "joi-currency.js",
   "scripts": {
