@@ -2,6 +2,7 @@
 
 > A [Joi](https://github.com/hapijs/joi) plugin that validates if the string is an [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) currency code.
 
+[![Build Status](https://travis-ci.org/zagreusinoz/joi-currency.svg?branch=master)](https://travis-ci.org/zagreusinoz/joi-currency)
 
 ## Installing
 ```shell
@@ -26,7 +27,7 @@ const schema = Joi.object().keys({
     id: Joi.string().noChange(origObj).required().label('id'),
     name: Joi.string().required().label('name'),
     price: Joi.number().positive().integer().label('price'),
-    currency: Joi.string().currency().required().label('currency)
+    currency: Joi.string().currency().required().label('currency')
     }
 });
 
