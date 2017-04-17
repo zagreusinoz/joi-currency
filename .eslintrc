@@ -1,0 +1,18 @@
+{
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
+    },
+    "extends": "eslint:recommended",
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    }
+}
