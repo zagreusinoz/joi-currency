@@ -2,10 +2,7 @@
 
 const expect = require('expect');
 
-const BaseJoi = require('joi');
-const currency = require('../joi-currency');
-const Joi = BaseJoi.extend(currency);
-
+const Joi = require('../joi-currency');
 
 it('should still validate a string', (done) => {
 
